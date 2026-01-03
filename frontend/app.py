@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import date, time
 
-BACKEND_URL = "http://localhost:8000/submit"
+BACKEND_URL = "https://cnremocoes.onrender.com/submit"
 
 st.set_page_config(page_title="Formulário de Serviço Médico", layout="centered")
 
