@@ -7,7 +7,7 @@ app = FastAPI()
 async def submit(data: dict):
   pdf_bytes = generate_pdf(data)
 
-return Response(
+  return Response(
   content=pdf_bytes, 
   media_type="application/pdf",
   headers={
